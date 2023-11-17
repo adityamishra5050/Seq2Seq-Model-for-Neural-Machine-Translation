@@ -6,8 +6,8 @@ in WhatsApp) and the second word is its corresponding word in native script. You
 to train a seq2seq model which takes as input the romanized string and produces the
 corresponding word in native script.
 For Example, Jabki yah Jainon se km hai. ⇒ जबकि यह जनै ों सेकम है। 
-a) Build a seq2seq model which contains the following layers 
 
+a) Build a seq2seq model which contains the following layers 
 (i) input layer for character embeddings
 (ii) one encoder which sequentially encodes the input character sequence (Latin)
 (iii) one decoder which takes the last state of the encoder as an input and produces one
